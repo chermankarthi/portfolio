@@ -1,0 +1,153 @@
+div .banner {
+  margin-top: 10vh;
+  /* background-color: black; */
+}
+.banner .container {
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (min-width: 769px) {
+    width: 90%;
+  }
+}
+
+.banner .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  /* background-color: red; */
+}
+
+.row .bannerDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  /* background-color: #0d2944; */
+
+  height: 100%;
+  @media (max-width: 768px) {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 5px;
+    order: 2;
+  }
+  /* @media (min-width: 769px) {
+    width: 50%;
+    padding: 10px;
+  }*/
+  @media (min-width: 769px) {
+    width: 50%;
+    order: 1;
+    margin-top: 75px;
+  }
+}
+.row .bannerImage {
+  /* background-color: #0d2944; */
+  display: flex;
+  order: 1;
+
+  align-items: center;
+
+  @media (max-width: 769px) {
+    width: 100%;
+    justify-content: center;
+    order: 1;
+    margin-top: 25px;
+  }
+  /* @media (max-width: 768px) {
+      width: 100%;
+    }*/
+
+  @media (min-width: 769px) {
+    width: 50%;
+    justify-content: flex-end;
+    order: 2;
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+}
+
+.bannerImage .photoDiv {
+  height: 50%;
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 769px) {
+    width: 75%;
+  }
+}
+.profileImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 2px solid #f3b3c0;
+}
+.bannerDetails .intro {
+  @media (min-width: 769px) {
+    font-size: 45px;
+  }
+  /* @media (min-width: 769px) {
+    font-size: 40px;
+  }
+  @media (min-width: 1025px) {
+    font-size: 45px;
+  } */
+}
+.bannerDetails .description {
+  @media (min-width: 769px) {
+    font-size: 20px;
+  }
+
+  /* @media (max-width: 769px) {
+    margin-top: 15px;
+  }
+  @media (min-width: 769px) {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  @media (min-width: 1025px) {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 20px;
+    margin-top: 15px;
+  } */
+}
+.bannerDetails .role {
+  color: #f3b3c0;
+  @media (max-width: 769px) {
+    font-size: 30px;
+  }
+  /* @media (max-width: 769px) {
+    font-size: 20px;
+  }
+  @media (min-width: 769px) {
+    font-size: 25px;
+  }
+  @media (min-width: 1025px) {
+    font-size: 30px;
+  } */
+}
+.bannerDetails .resumeBtn {
+  background-color: #f3b3c0;
+  padding: 20px 50px;
+  border-radius: 50px;
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 500px;
+  color: #0d2944;
+  border: none;
+  outline-style: none;
+}

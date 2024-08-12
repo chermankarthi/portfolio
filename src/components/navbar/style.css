@@ -1,0 +1,120 @@
+nav {
+  overflow: hidden;
+  height: 10vh;
+  box-shadow: 0 0 2px 0px #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #0d2944;
+}
+nav .container {
+  width: 90%;
+  margin: 0 auto;
+  /* background-color: black; */
+  height: 100%;
+  @media (min-width: 769px) and (max-width: 1024px) {
+    width: 100%;
+  }
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    width: 90%;
+  }
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #f3b3c0;
+}
+nav ul li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+nav .logo {
+  width: 30%;
+  /* background-color: #0d2944; */
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    width: 20%;
+  }
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    width: 25%;
+  }
+  @media (min-width: 1201px) {
+    width: 25%;
+  }
+}
+nav .menu {
+  width: 40%;
+  /* background-color: #0d2944; */
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    width: 50%;
+  }
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    width: 45%;
+  }
+  @media (min-width: 1201px) {
+    width: 50%;
+  }
+}
+nav .gitButton {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: #0d2944; */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    width: 20%;
+  }
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    width: 20%;
+  }
+  @media (min-width: 1201px) {
+    width: 25%;
+  }
+}
+
+nav menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav menu li {
+  margin: 0px 10px;
+}
+
+nav .row div {
+  margin: 25px;
+  @media (min-width: 769px) and (max-width: 1024px) {
+    margin: 10px;
+  }
+}
+
+.gitButton .gitLinkBtn {
+  border: 1px solid #f3b3c0;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 1px #fff;
+}
+
+.logo .linkLogo {
+  font-weight: 600;
+}
