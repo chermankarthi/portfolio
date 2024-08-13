@@ -1,0 +1,24 @@
+.education {
+  color: white;
+  width: 100%;
+  margin: 25px 0px;
+}
+.education .container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.education .row {
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.educationHeading {
+  text-align: center;
+  margin-bottom: 10px;
+}

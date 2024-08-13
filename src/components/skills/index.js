@@ -4,11 +4,11 @@ import { skills } from "../../data/details";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div className="container">
         {skills.map((skill) => (
           <>
-            <h1 className="headingSkills">Skills</h1>
+            <h1 className="headingSkills">SKILLS</h1>
             <div className="row">
               <div className="skillsBox">
                 <div>

@@ -1,0 +1,33 @@
+.educationCard {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 250px;
+  background-color: green;
+  border: 1px solid #f3b3c0;
+
+  overflow: hidden;
+  border-radius: 25px;
+  padding: 15px;
+  @media (max-width: 960px) {
+    width: 90%;
+  }
+  @media (max-width: 768px) {
+    padding: 5px;
+    gap: 8px;
+    width: 100%;
+  }
+}
+
+.educationLogo {
+  height: 50px;
+}
+
+.educationOrg {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+.educationDesc {
+}

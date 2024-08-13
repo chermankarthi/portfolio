@@ -6,7 +6,7 @@ import { Bio } from "../../data/details";
 
 const Banner = () => {
   return (
-    <div className="banner">
+    <div className="banner" id="about">
       <div className="container">
         <div className="row">
           <div className="bannerDetails">

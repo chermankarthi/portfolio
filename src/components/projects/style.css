@@ -1,0 +1,25 @@
+.projects {
+  color: white;
+  width: 100%;
+  margin: 25px 0px;
+  background-color: black;
+}
+
+.projects .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.projectsHeading {
+  text-align: center;
+  background-color: blue;
+  margin-bottom: 25px;
+}
+
+.projects .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}

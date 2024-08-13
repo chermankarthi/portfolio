@@ -4,9 +4,9 @@ import { experiences } from "../../data/details";
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="experience" id="experience">
       <div className="container">
-        <h1 className="headingExperience">Experiences</h1>
+        <h1 className="headingExperience">EXPERIENCES</h1>
         <div className="row">
           {experiences.map((exp) => (
             <>
@@ -17,7 +17,7 @@ const Experience = () => {
                   </div>
                   <div className="experienceDetails">
                     <div>
-                      <h2>{exp.role}</h2>
+                      <h2 className="expRole">{exp.role}</h2>
                     </div>
                     <div>
                       <h4>{exp.company}</h4>
@@ -29,7 +29,7 @@ const Experience = () => {
                 </div>
 
                 <div className="experienceDesc">
-                  <div>
+                  <div className="expDescDetails">
                     <p>{exp.desc}</p>
                   </div>
                   <div className="expSkills">
@@ -39,6 +39,10 @@ const Experience = () => {
                     ))}
                   </div>
                 </div>
+
+                <a href={exp.doc}>
+                  <img src={exp.doc} className="expDoc"></img>
+                </a>
               </div>
             </>
           ))}

@@ -73,7 +73,7 @@ export const experiences = [
       "Bootstarp",
       "JavaScript",
     ],
-    doc: "/photo/cherman_fabevy.jpg",
+    doc: "/cherman_fabevy.jpg",
   },
 ];
 
@@ -84,7 +84,7 @@ export const projects = [
     date: "Oct 2023 - Nov 2023",
     description:
       "Developed a frond-end website that allows users to search , compare the car details and made responsive user interface with React JS that provides users with a seamless experience across all devices",
-    image: "../../images/heroImage.jpg",
+    image: "/food_delivery.png",
     tags: ["React Js", "Redux", "Material UI"],
     category: "website",
     github: "https://github.com/chermankarthi/carwale",
@@ -95,7 +95,7 @@ export const projects = [
     date: "Sep 2023 - Sep 2023",
     description:
       "Developed a frond-end website that allows users to order foods",
-    image: "/photo/food_delivery.png",
+    image: "/food_delivery.png",
     tags: ["React Js", "Redux"],
     category: "website",
     github: "https://github.com/chermankarthi/react-food_delivery.git",
@@ -107,7 +107,7 @@ export const projects = [
     date: "Jul 2023 - Jul 2023",
     description:
       "Developed a frond-end website that allows users to search the details of house",
-    image: "/photo/magicbricks.png",
+    image: "/magicbricks.png",
     tags: ["Bootstrap"],
     category: "website",
     github: "https://github.com/chermankarthi/bootstrap-magicbricks.git",
@@ -128,7 +128,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fcjb3-1.fna.fbcdn.net/v/t39.30808-6/302161880_528599259067585_3465366412832517411_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=iF7RuO67AtUAX8rgzTp&_nc_ht=scontent.fcjb3-1.fna&oh=00_AfDNaHKuMA-0IXBlh7EXHXg_5oguLTGo6MyH5QjDPCS8Xg&oe=65F3C593",
+    img: "/pacr.jpeg",
     school: "P.A.C.Ramasamy Raja PolyTechnic College, Rajapalayam",
     date: "2010 - Apr 2013",
     grade: "82%",
