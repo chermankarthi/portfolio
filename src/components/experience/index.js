@@ -1,6 +1,7 @@
 import React from "react";
 import "../experience/style.css";
 import { experiences } from "../../data/details";
+import CircleIcon from "@mui/icons-material/Circle";
 
 const Experience = () => {
   return (
@@ -35,7 +36,9 @@ const Experience = () => {
                   <div className="expSkills">
                     <b>Skills:</b>
                     {exp.skills.map((skill) => (
-                      <div className="expSkill">.{skill}</div>
+                      <div className="expSkill">
+                        <CircleIcon className="dotIcon" /> {skill}
+                      </div>
                     ))}
                   </div>
                 </div>

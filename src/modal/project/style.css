@@ -1,7 +1,8 @@
 .projectModal {
   width: 100%;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4); */
+  background-color: #1d2225;
   top: 0;
   height: 100%;
   position: fixed;
@@ -30,15 +31,15 @@
 }
 .projectModalCard {
   width: 50%;
-  border: 1px solid #f3b3c0;
   flex-direction: column;
   flex-wrap: nowrap;
   display: flex;
-  background-color: #0d2944;
+  border: 1px solid #2babff;
+  background-color: #0b0e12;
   height: min-content;
   gap: 8px;
   padding: 25px;
-  border-radius: 25px;
+  border-radius: 10px;
 
   @media (max-width: 768px) {
     width: 95%;
@@ -65,8 +66,8 @@
 
 .projectCodeBtn,
 .projectLiveBtn {
-  background-color: #f3b3c0;
+  border: 1px solid #2babff;
   padding: 10px 20px;
   border-radius: 10px;
-  color: #0d2944;
+  color: #2babff;
 }

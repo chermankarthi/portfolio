@@ -5,9 +5,21 @@
 }
 
 body {
-  background-color: #0d2944;
+  /* background-color: #0d2944; */
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #1d2225;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #0b0e12;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #2babff;
+  border-radius: 5px;
 }

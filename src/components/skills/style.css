@@ -38,10 +38,9 @@ div .skills {
   height: 300px;
   min-height: 300px;
   max-height: 350px;
-  /* background-color: black; */
-  border: 1px solid #f3b3c0;
-  border-radius: 25px;
-
+  background-color: #0b0e12;
+  border: 1px solid#2babff;
+  border-radius: 10px;
   @media (min-width: 1200px) {
     width: 40%;
   }
@@ -89,7 +88,7 @@ div .skillName {
   font-size: 15px;
   display: flex;
   justify-content: center;
-  border: 1px solid #f3b3c0;
+  border: 1px solid#2babff;
   border-radius: 10px;
   align-items: center;
   max-height: 40px;
@@ -101,4 +100,15 @@ div .skillName {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  color: #f2f3f495;
+}
+
+.expSkill {
+  display: flex;
+  align-items: center;
+}
+
+.expSkill .dotIcon {
+  font-size: 10px;
+  margin-right: 5px;
 }

@@ -12,7 +12,9 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div>
-            <a href="">{Bio.name}</a>
+            <a href="" className="profileName">
+              {Bio.name}
+            </a>
           </div>
           <div className="navLinksDiv">
             <a href="#about">About</a>

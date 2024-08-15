@@ -2,7 +2,7 @@
   color: white;
   width: 100%;
   margin: 25px 0px;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .projects .container {
@@ -12,7 +12,7 @@
 
 .projectsHeading {
   text-align: center;
-  background-color: blue;
+  /* background-color: blue; */
   margin-bottom: 25px;
 }
 

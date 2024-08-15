@@ -4,11 +4,13 @@
   flex-direction: column;
   gap: 12px;
   height: 250px;
-  background-color: green;
-  border: 1px solid #f3b3c0;
+  background-color: #0b0e12;
+  color: #f2f3f495;
+  /* background-color: green; */
+  border: 1px solid#2babff;
 
   overflow: hidden;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 15px;
   @media (max-width: 960px) {
     width: 90%;

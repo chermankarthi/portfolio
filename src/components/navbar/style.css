@@ -1,11 +1,10 @@
 nav {
   overflow: hidden;
   height: 10vh;
-  box-shadow: 0 0 2px 0px #fff;
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #0d2944;
+  background-color: #0b0e12;
   @media (max-width: 768px) {
     overflow: visible;
   }
@@ -47,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #f3b3c0;
+  color: #2babff;
 }
 nav ul li {
   list-style: none;
@@ -149,10 +148,10 @@ nav menu li {
 }
 
 .gitButton .gitLinkBtn {
-  border: 1px solid #f3b3c0;
+  border: 1px solid #2babff;
   padding: 10px 20px;
   border-radius: 50px;
-  box-shadow: 1px #fff;
+  color: #2babff;
 }
 
 .logo .linkLogo {

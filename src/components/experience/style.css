@@ -36,9 +36,10 @@ div .experience {
 .experienceCard {
   width: 650px;
   padding: 10px 15px;
-  border-radius: 25px;
-
-  border: 1px solid #f3b3c0;
+  background-color: #0b0e12;
+  color: #f2f3f495;
+  border-radius: 10px;
+  border: 1px solid#2babff;
   @media (max-width: 768px) {
     width: 300px;
     padding: 5px 10px;
@@ -46,8 +47,8 @@ div .experience {
   overflow: hidden;
 
   & :hover {
-    color: red;
-    background-color: white;
+    /* color: red; */
+    /* background-color: white; */
     .expDoc & {
       display: block;
     }
@@ -62,14 +63,14 @@ div .experience {
 .experienceOrg {
   display: flex;
   gap: 12px;
-  background-color: green;
+  /* background-color: green; */
   margin-bottom: 10px;
 }
 .expSkills {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  background-color: pink;
+  /* background-color: pink; */
   margin-bottom: 10px;
 }
 

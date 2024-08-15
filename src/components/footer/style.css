@@ -1,7 +1,8 @@
 .footer {
   width: 100%;
-  margin: 25px 0px;
-  background-color: black;
+  padding: 25px 0px;
+  background-color: #0b0e12;
+  color: #f2f3f495;
 }
 .footer .container {
   width: 90%;
@@ -25,4 +26,8 @@
 .footer a {
   text-decoration: none;
   color: #fff;
+}
+.footer .profileName {
+  color: #2babff;
+  font-size: 20px;
 }
