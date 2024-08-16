@@ -11,19 +11,15 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div>
-            <a href="" className="profileName">
-              {Bio.name}
-            </a>
-          </div>
-          <div className="navLinksDiv">
+          <div className="  profile-name">{Bio.name}</div>
+          <div className="nav-links-div">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#education">Education</a>
           </div>
-          <div className="navLinksDiv">
+          <div className="nav-links-div">
             <a href={Bio.linkedin}>
               <LinkedInIcon />
             </a>

@@ -15,7 +15,7 @@
   align-items: center;
   gap: 30px;
 }
-.navLinksDiv {
+.nav-links-div {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -26,8 +26,12 @@
 .footer a {
   text-decoration: none;
   color: #fff;
+  &:hover {
+    cursor: pointer;
+    color: #2babff;
+  }
 }
-.footer .profileName {
+.footer .profile-name {
   color: #2babff;
   font-size: 20px;
 }

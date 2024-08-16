@@ -7,13 +7,13 @@ const ProjectModal = ({ openModal, setOpenModal }) => {
   return (
     <>
       {openModal && (
-        <div className="projectModal">
+        <div className="project-modal">
           <div className="container">
             <div className="row">
-              <div className="projectModalCard">
+              <div className="project-modal-card">
                 <div>
                   <div
-                    className="modalCloseBtn"
+                    className="modal-close-btn"
                     onClick={() =>
                       setOpenModal({ state: false, project: null })
                     }
@@ -21,20 +21,23 @@ const ProjectModal = ({ openModal, setOpenModal }) => {
                     <CloseIcon />
                   </div>
                 </div>
-                <div className="projectModalImageDiv">
-                  <img src={project.image} className="projectModalImage"></img>
+                <div className="project-modal-image-div">
+                  <img
+                    src={project.image}
+                    className="project-modal-image"
+                  ></img>
                 </div>
                 <div>{project.title}</div>
                 <div>{project.date}</div>
-                <div className="projectTagsDiv">
+                <div className="project-tags-div">
                   {project.tags.map((item) => (
-                    <div className="projectTags">{item}</div>
+                    <div className="project-tags">{item}</div>
                   ))}
                 </div>
-                <div className="projectDescription">{project.description}</div>
-                <div className="projectModalBtns">
-                  <div className="projectCodeBtn">View Code</div>
-                  <div className="projectLiveBtn">Live App</div>
+                <div className="project-description">{project.description}</div>
+                <div className="project-modal-btns">
+                  <div className="project-code-btn">View Code</div>
+                  <div className="project-live-btn">Live App</div>
                 </div>
               </div>
             </div>

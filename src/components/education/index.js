@@ -7,7 +7,7 @@ const Education = () => {
   return (
     <div className="education" id="education">
       <div className="container">
-        <h1 className="educationHeading">EDUCATION</h1>
+        <h1 className="education-heading">EDUCATION</h1>
         <div className="row">
           {education.map((educations) => (
             <EducationCard educations={educations}></EducationCard>

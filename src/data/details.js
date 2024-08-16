@@ -122,7 +122,7 @@ export const education = [
     school: "University VOC College of Engineering, Tuticorin",
     date: "2013 - Sep 2017",
     grade: "5.8 CGPA",
-    desc: "I am pursuing a Bachelor's degree in ELectrical and Electronics Engineering at University VOC College of Engineering, Tuticorin. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I am pursuing a Bachelor's degree in ELectrical and Electronics Engineering at University VOC College of Engineering, Tuticorin, where I studied some computer science subjects and programms",
     degree:
       "Bachelor of Engineering - B.E, Electrical and Electronics Engineering",
   },
@@ -132,7 +132,7 @@ export const education = [
     school: "P.A.C.Ramasamy Raja PolyTechnic College, Rajapalayam",
     date: "2010 - Apr 2013",
     grade: "82%",
-    desc: "I completed my diploma education at P.A.C.Ramasamy Raja PolyTechnic College, Rajapalayam, where I studied basic computer programms",
+    desc: "I completed my diploma education at P.A.C.Ramasamy Raja PolyTechnic College, Rajapalayam, where I studied some basic computer programms",
     degree: "Diploma in Electrical and Electronics Engineering",
   },
   {
@@ -141,7 +141,7 @@ export const education = [
     school: "T.P.S Govt Hr.Sec School, Tenkasi",
     date: "2009 - 2010",
     grade: "80%",
-    desc: "I completed my class 10 education at T.P.S Govt Hr.Sec School, Tenkasi, where I studied Science with Computer Application.",
+    desc: "I completed my class 10 education at T.P.S Govt Hr.Sec School, Tenkasi, where I studied computer science",
     degree: "SSLC",
   },
 ];

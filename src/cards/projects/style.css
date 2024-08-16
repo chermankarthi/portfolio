@@ -1,4 +1,4 @@
-.projectCard {
+.project-card {
   background-color: #0b0e12;
   border: 1px solid #2babff;
   padding: 15px;
@@ -11,20 +11,20 @@
   }
 }
 
-.projectCard .card {
+.project-card .card {
   display: flex;
   flex-direction: column;
   overflow: hidden;
   height: 350px;
 }
 
-.projectImage {
+.project-image {
   width: 100%;
   height: 180px;
   border-radius: 10px;
 }
 
-.projectTagsDiv {
+.project-tags-div {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -34,13 +34,13 @@
     gap: 7px;
   }
 }
-.projectTags {
+.project-tags {
   color: #2babff;
   border: 1px solid#2babff;
   padding: 5px 10px;
   border-radius: 10px;
 }
-.projectDescription {
+.project-description {
   margin: 10px 0px;
   @media (max-width: 760px) {
     margin: 5px 0px;

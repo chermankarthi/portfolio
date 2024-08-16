@@ -7,7 +7,7 @@ const Projects = ({ openModal, setOpenModal }) => {
   return (
     <div className="projects" id="projects">
       <div className="container">
-        <h1 className="projectsHeading">PROJECTS</h1>
+        <h1 className="projects-heading">PROJECTS</h1>
         <div className="row">
           {projects.map((project) => (
             <ProjectCard
