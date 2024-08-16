@@ -2,12 +2,23 @@
   color: white;
   width: 100%;
   margin: 25px 0px;
-  /* background-color: black; */
 }
 
 .projects .container {
   width: 90%;
   margin: 0 auto;
+  @media (max-width: 768px) {
+    padding: 25px 0px;
+    width: 95%;
+  }
+  @media (min-width: 769px) {
+    width: 95%;
+    padding: 50px 0px;
+  }
+  @media (min-width: 1025px) {
+    width: 90%;
+    padding: 75px 0px;
+  }
 }
 
 .projectsHeading {

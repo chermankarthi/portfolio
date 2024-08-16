@@ -7,21 +7,21 @@ const Experience = () => {
   return (
     <div className="experience" id="experience">
       <div className="container">
-        <h1 className="headingExperience">EXPERIENCES</h1>
+        <h1 className="heading-experience">EXPERIENCES</h1>
         <div className="row">
           {experiences.map((exp) => (
             <>
-              <div className="experienceCard">
-                <div className="experienceOrg">
+              <div className="experience-card">
+                <div className="experience-org">
                   <div className="expOrgDiv">
-                    <img src={exp.img} className="expOrgLogo"></img>
+                    <img src={exp.img} className="exp-org-logo"></img>
                   </div>
-                  <div className="experienceDetails">
+                  <div className="experience-details">
                     <div>
-                      <h2 className="expRole">{exp.role}</h2>
+                      <h2 className="exp-role">{exp.role}</h2>
                     </div>
                     <div>
-                      <h4>{exp.company}</h4>
+                      <h4 className="exp-company"> {exp.company}</h4>
                     </div>
                     <div>
                       <h6>{exp.date}</h6>
@@ -29,22 +29,29 @@ const Experience = () => {
                   </div>
                 </div>
 
-                <div className="experienceDesc">
-                  <div className="expDescDetails">
+                <div className="experience-desc">
+                  <div className="exp-desc-details">
                     <p>{exp.desc}</p>
                   </div>
-                  <div className="expSkills">
-                    <b>Skills:</b>
-                    {exp.skills.map((skill) => (
-                      <div className="expSkill">
-                        <CircleIcon className="dotIcon" /> {skill}
-                      </div>
-                    ))}
+                  <div className="exp-skills">
+                    <div>
+                      <b>Skills:</b>
+                    </div>
+                    <div className="exp-skill-items">
+                      {exp.skills.map((skill) => (
+                        <div className="exp-skill">
+                          <div>
+                            <CircleIcon className="dot-icon" />
+                          </div>
+                          <div>{skill}</div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
 
                 <a href={exp.doc}>
-                  <img src={exp.doc} className="expDoc"></img>
+                  <img src={exp.doc} className="exp-doc"></img>
                 </a>
               </div>
             </>

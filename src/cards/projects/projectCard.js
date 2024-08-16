@@ -7,17 +7,19 @@ const ProjectCard = ({ project, openModal, setOpenModal }) => {
       className="projectCard"
       onClick={() => setOpenModal({ state: true, project: project })}
     >
-      <div>
-        <img src={project.image} className="projectImage"></img>
+      <div className="card">
+        <div>
+          <img src={project.image} className="projectImage"></img>
+        </div>
+        <div className="projectTagsDiv">
+          {project.tags.map((item) => (
+            <div className="projectTags">{item}</div>
+          ))}
+        </div>
+        <div>{project.title}</div>
+        <div>{project.date}</div>
+        <div className="projectDescription">{project.description}</div>
       </div>
-      <div className="projectTagsDiv">
-        {project.tags.map((item) => (
-          <div className="projectTags">{item}</div>
-        ))}
-      </div>
-      <div>{project.title}</div>
-      <div>{project.date}</div>
-      <div className="projectDescription">{project.description}</div>
     </div>
   );
 };

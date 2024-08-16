@@ -1,6 +1,6 @@
 import React from "react";
 import "../../modal/project/style.css";
-import { Diversity2 } from "@mui/icons-material";
+import CloseIcon from "@mui/icons-material/Close";
 
 const ProjectModal = ({ openModal, setOpenModal }) => {
   const project = openModal.project;
@@ -18,7 +18,7 @@ const ProjectModal = ({ openModal, setOpenModal }) => {
                       setOpenModal({ state: false, project: null })
                     }
                   >
-                    x
+                    <CloseIcon />
                   </div>
                 </div>
                 <div className="projectModalImageDiv">

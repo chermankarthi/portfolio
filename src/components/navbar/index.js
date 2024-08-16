@@ -10,49 +10,39 @@ const Navbar = () => {
       <div class="container">
         <div className="row">
           <div className="logo">
-            <a href="#about" className="linkLogo">
+            <a href="#about" className="link-logo">
               Portfolio
             </a>
           </div>
-          <div className="mobileIcon">
+          <div className="mobile-icon">
             <FaBars onClick={() => setIsOpen(!isOpen)} />
           </div>
           <div className="menu">
             <ul>
               <li>
-                <a href="#about" className="linkContent">
-                  About
-                </a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#skills" className="linkContent">
-                  Skills
-                </a>
+                <a href="#skills">Skills</a>
               </li>
               <li>
-                <a href="#experience" className="linkContent">
-                  Experiences
-                </a>
+                <a href="#experience">Experiences</a>
               </li>
               <li>
-                <a href="#projects" className="linkContent">
-                  Projects
-                </a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#education" className="linkContent">
-                  Education
-                </a>
+                <a href="#education">Education</a>
               </li>
             </ul>
           </div>
-          <div className="gitButton">
-            <a className="gitLinkBtn">GitHub Profile</a>
+          <div className="git-button-div">
+            <a className="git-link-btn">GitHub Profile</a>
           </div>
         </div>
         {isOpen && (
           <div>
-            <ul className="rowMobileNav">
+            <ul className="row-mobile-nav">
               <li onClick={() => setIsOpen(!isOpen)}>
                 <a href="#about">About</a>
               </li>

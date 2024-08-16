@@ -16,7 +16,7 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Frontend",
+    title: "Front-end",
     skills: [
       {
         name: "React Js",
@@ -60,10 +60,10 @@ export const experiences = [
   {
     id: 0,
     img: "/fabevy_logo.jpeg",
-    role: "Frontend Engineer Trainee",
+    role: "Front-end Engineer Trainee",
     company: "Fabevy Technologics",
     date: "May 2023",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    desc: "Working on the front-end of the web application using ReactJS, Redux, and Material UI.",
     skills: [
       "ReactJS",
       "Redux",

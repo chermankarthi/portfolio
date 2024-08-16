@@ -8,7 +8,7 @@
   position: fixed;
   z-index: 1;
   overflow: auto;
-  color: #fff;
+  color: #f2f3f495;
 }
 
 .projectModal .container {
@@ -28,6 +28,7 @@
 }
 .modalCloseBtn {
   float: right;
+  cursor: pointer;
 }
 .projectModalCard {
   width: 50%;
@@ -54,6 +55,7 @@
 .projectModalImage {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .projectModalBtns {

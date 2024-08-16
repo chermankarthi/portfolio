@@ -8,20 +8,20 @@ const Skills = () => {
       <div className="container">
         {skills.map((skill) => (
           <>
-            <h1 className="headingSkills">SKILLS</h1>
+            <h1 className="heading-skills">SKILLS</h1>
             <div className="row">
-              <div className="skillsBox">
+              <div className="skills-box">
                 <div>
-                  <h2 className="headingRole">{skill.title}</h2>
+                  <h2 className="heading-role">{skill.title}</h2>
                 </div>
-                <div className="skillItems">
+                <div className="skill-items">
                   {skill.skills.map((item) => (
                     <>
-                      <div className="skillSet">
-                        <div className="skillLogo">
-                          <img src={item.image} className="skillImage"></img>
+                      <div className="skill-set">
+                        <div className="skill-logo">
+                          <img src={item.image} className="skill-image"></img>
                         </div>
-                        <div className="skillName">{item.name}</div>
+                        <div className="skill-name">{item.name}</div>
                       </div>
                     </>
                   ))}

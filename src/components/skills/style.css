@@ -6,12 +6,17 @@ div .skills {
 
 .skills .container {
   margin: 0 auto;
-  height: 100%;
   @media (max-width: 768px) {
-    width: 100%;
+    padding: 25px 0px;
+    width: 95%;
   }
   @media (min-width: 769px) {
+    width: 95%;
+    padding: 50px 0px;
+  }
+  @media (min-width: 1025px) {
     width: 90%;
+    padding: 75px 0px;
   }
 }
 
@@ -21,68 +26,61 @@ div .skills {
   justify-content: center;
 }
 
-.headingSkills {
+.skills .heading-skills {
   width: 100%;
   text-align: center;
-  margin-bottom: 15px;
+  margin: 15px 0px;
 }
-
-.headingRole {
-  text-align: center;
-}
-
-.skillsBox {
+.skills .skills-box {
+  padding: 50px 10px;
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
-  height: 300px;
-  min-height: 300px;
-  max-height: 350px;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  max-width: 650px;
   background-color: #0b0e12;
   border: 1px solid#2babff;
   border-radius: 10px;
-  @media (min-width: 1200px) {
-    width: 40%;
-  }
-  @media (max-width: 1200px) {
-    width: 50%;
-  }
   @media (max-width: 768px) {
-    width: 60%;
-  }
-  @media (max-width: 600px) {
-    width: 75%;
-  }
-
-  @media (max-width: 480px) {
     width: 95%;
   }
 }
-.skillsList {
-  border: 1px solid blue;
+.skills .heading-role {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.skill-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #f2f3f495;
+  gap: 15px;
 }
 
-div .skillLogo {
+.skills .skill-logo {
   height: 100%;
+  width: fit-content;
   padding: 5px;
   display: flex;
   align-items: center;
 }
-div .skillName {
-  height: 100%;
-  padding: 1px;
+.skills .skill-name {
+  padding: 5px;
   display: flex;
   align-items: center;
 }
-.skillImage {
+.skills .skill-image {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.skillSet {
-  width: 125px;
+.skills .skill-set {
+  width: fit-content;
   height: 40px;
   min-height: 40px;
   font-size: 15px;
@@ -92,23 +90,18 @@ div .skillName {
   border-radius: 10px;
   align-items: center;
   max-height: 40px;
-  margin: 10px;
+  padding: 5px;
 }
 
-.skillItems {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  color: #f2f3f495;
-}
-
-.expSkill {
+/* .skills .exp-skill {
   display: flex;
   align-items: center;
 }
 
-.expSkill .dotIcon {
+.skills .exp-skill .dot-icon {
   font-size: 10px;
   margin-right: 5px;
-}
+} */
+/* .skills .skills-list {
+  border: 1px solid blue;
+} */

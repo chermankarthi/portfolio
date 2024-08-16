@@ -4,52 +4,46 @@ div .banner {
 }
 .banner .container {
   margin: 0 auto;
+
   @media (max-width: 768px) {
-    width: 100%;
+    padding: 25px 0px;
+    width: 95%;
   }
   @media (min-width: 769px) {
+    width: 95%;
+    padding: 50px 0px;
+  }
+  @media (min-width: 1025px) {
     width: 90%;
+    padding: 75px 0px;
   }
 }
 
 .banner .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
-
-  /* background-color: red; */
 }
 
-.row .bannerDetails {
+.banner .banner-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
-  /* background-color: #0d2944; */
-
-  height: 100%;
   @media (max-width: 768px) {
     width: 100%;
     align-items: center;
-    margin-bottom: 25px;
-    padding: 5px;
     order: 2;
   }
-  /* @media (min-width: 769px) {
-    width: 50%;
-    padding: 10px;
-  }*/
+
   @media (min-width: 769px) {
     width: 50%;
     order: 1;
-    margin-top: 75px;
   }
 }
-.row .bannerImage {
-  /* background-color: #0d2944; */
+.banner .banner-image {
   display: flex;
   order: 1;
 
@@ -74,7 +68,7 @@ div .banner {
   }
 }
 
-.bannerImage .photoDiv {
+.banner .photo-div {
   height: 50%;
   /* background-color: red; */
   width: 50%;
@@ -85,71 +79,51 @@ div .banner {
     width: 75%;
   }
 }
-.profileImage {
+.banner .profile-image {
   width: 100%;
   height: 100%;
   border-radius: 100%;
   border: 2px solid #f3b3c0;
 }
-.bannerDetails .intro {
+.banner .banner-details .intro {
   @media (min-width: 769px) {
     font-size: 45px;
   }
-  /* @media (min-width: 769px) {
-    font-size: 40px;
-  }
-  @media (min-width: 1025px) {
-    font-size: 45px;
-  } */
 }
-.bannerDetails .description {
+.banner .banner-details .description {
   color: #f2f3f495;
-  @media (min-width: 769px) {
-    font-size: 20px;
+  margin-top: 15px;
+  @media (max-width: 768px) {
+    text-align: center;
   }
-
-  /* @media (max-width: 769px) {
-    margin-top: 15px;
+  @media (min-width: 768px) {
+    font-size: 18px;
   }
-  @media (min-width: 769px) {
-    font-size: 15px;
-    margin-top: 15px;
-  }
-  @media (min-width: 1025px) {
-    font-size: 15px;
-    margin-top: 15px;
-  }
-  @media (min-width: 1200px) {
-    font-size: 20px;
-    margin-top: 15px;
-  } */
 }
-.bannerDetails .role {
-  /* color: #00bfff; */
+.banner .banner-details .role {
   color: #2babff;
-
-  @media (max-width: 769px) {
-    font-size: 30px;
-  }
-  /* @media (max-width: 769px) {
-    font-size: 20px;
-  }
-  @media (min-width: 769px) {
-    font-size: 25px;
-  }
-  @media (min-width: 1025px) {
-    font-size: 30px;
-  } */
 }
-.bannerDetails .resumeBtn {
+.banner .resume-btn {
   border: 1px solid #2babff;
-  padding: 20px 50px;
-  border-radius: 25px;
+  border-radius: 10px;
   margin-top: 25px;
-  font-size: 25px;
-  font-weight: 500px;
+  font-weight: 600;
   color: #2babff;
   background-color: #0b0e12;
   outline-style: none;
   cursor: pointer;
+  padding: 15px 30px;
+  font-size: 25px;
+  @media (max-width: 480px) {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  &:hover {
+    background-color: #2babff;
+    color: #0b0e12;
+  }
 }
