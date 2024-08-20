@@ -3,7 +3,7 @@ export const Bio = {
   image: "/images/profileImage.png",
   roles: ["Front-End Developer"],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a motivated always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/chermankarthi",
   resume:
     "https://drive.google.com/file/d/1ULfzppYlYP5kxuhEoUEvv3JVctCzXmCm/view?usp=sharing",
@@ -84,10 +84,11 @@ export const projects = [
     date: "Oct 2023 - Nov 2023",
     description:
       "Developed a frond-end website that allows users to search , compare the car details and made responsive user interface with React JS that provides users with a seamless experience across all devices",
-    image: "/food_delivery.png",
+    image: "/carwale.png",
     tags: ["React Js", "Redux", "Material UI"],
     category: "website",
-    github: "https://github.com/chermankarthi/carwale",
+    github: "https://github.com/chermankarthi/react-carwale.git",
+    weapp: "",
   },
   {
     id: 1,

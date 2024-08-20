@@ -61,6 +61,7 @@
 
 .project-code-btn,
 .project-live-btn {
+  text-decoration: none;
   border: 1px solid #2babff;
   padding: 10px 20px;
   border-radius: 10px;

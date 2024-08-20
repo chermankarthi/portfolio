@@ -37,7 +37,9 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="git-button-div">
-            <a className="git-link-btn">GitHub Profile</a>
+            <a className="git-link-btn" href={Bio.github} target="display">
+              GitHub Profile
+            </a>
           </div>
         </div>
         {isOpen && (
@@ -59,7 +61,9 @@ const Navbar = () => {
                 <a href="#education">Education</a>
               </li>
               <li onClick={() => setIsOpen(!isOpen)}>
-                <a href="">GitHub Profile</a>
+                <a href={Bio.github} target="display">
+                  GitHub Profile
+                </a>
               </li>
             </ul>
           </div>

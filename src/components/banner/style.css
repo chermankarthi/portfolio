@@ -104,6 +104,7 @@ div .banner {
   color: #2babff;
 }
 .banner .resume-btn {
+  text-decoration: none;
   border: 1px solid #2babff;
   border-radius: 10px;
   margin-top: 25px;
@@ -112,8 +113,8 @@ div .banner {
   background-color: #0b0e12;
   outline-style: none;
   cursor: pointer;
-  padding: 15px 30px;
-  font-size: 25px;
+  padding: 12px 24px;
+  font-size: 20px;
   @media (max-width: 480px) {
     padding: 10px 20px;
     font-size: 14px;

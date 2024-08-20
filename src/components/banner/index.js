@@ -1,6 +1,6 @@
 import React from "react";
 import "../banner/style.css";
-import profileImage from "../../images/profileImage.jpg";
+// import profileImage from "../../images/profileImage.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import { Bio } from "../../data/details";
 
@@ -24,11 +24,17 @@ const Banner = () => {
               ></Typewriter>
             </h2>
             <p className="description">{Bio.description}</p>
-            <button className="resume-btn">Check Resume</button>
+            <a className="resume-btn" href={Bio.resume} target="display">
+              Check Resume
+            </a>
           </div>
           <div className="banner-image">
             <div className="photo-div">
-              {/* <img src={profileImage} className="profileImage"></img> */}
+              {/* <img
+                src={profileImage}
+                className="profileImage"
+                alt="no image"
+              ></img> */}
             </div>
           </div>
         </div>

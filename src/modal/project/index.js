@@ -36,8 +36,20 @@ const ProjectModal = ({ openModal, setOpenModal }) => {
                 </div>
                 <div className="project-description">{project.description}</div>
                 <div className="project-modal-btns">
-                  <div className="project-code-btn">View Code</div>
-                  <div className="project-live-btn">Live App</div>
+                  <a
+                    className="project-code-btn"
+                    href={project?.github}
+                    target="new"
+                  >
+                    View Code
+                  </a>
+                  <a
+                    className="project-live-btn"
+                    href={project?.webapp}
+                    target="new"
+                  >
+                    Live App
+                  </a>
                 </div>
               </div>
             </div>
